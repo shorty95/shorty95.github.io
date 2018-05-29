@@ -1,0 +1,109 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 200px;
+  border-width: 5px;
+  border-color: #FFFFFF; 
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.faded {
+  color: rgba(0, 0, 80, 0.8); 
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+header {
+  background-position: center;
+  background-image: url("Oia.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+top {
+  font-size: 2rem; 
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-weight: 700;
+  color: rgba(0, 0, 80, 0.8); 
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  column-width: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  border-width: 10px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  background-color: #2196F3;
+  opacity: 0.9;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.gridtitle {
+  text-decoration: underline;
+}
+
+.accom {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  color: rgba(0, 0, 80, 0.85); 
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gmap {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 100px solid rgba(255, 255, 255, 0.6);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prop {
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.pimg {
+  height: 10em;
+  width: 14em;
+}
